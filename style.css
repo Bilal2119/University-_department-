@@ -1,0 +1,619 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Department of Computer Science</title>
+</head>
+
+<body style="
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-y: auto;
+">
+
+<!--===== MAIN CONTAINER =====-->
+<div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+">
+
+<!--===== HEADER =====-->
+<div style="
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+    background: linear-gradient(90deg, #0073e6, #00bcd4);
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+">
+
+<h1 style="
+    font-size: 3rem;
+    margin-bottom: 10px;
+">
+Department of Computer Science
+</h1>
+
+<p style="font-size: 1.2rem;">
+Excellence in Teaching and Research
+</p>
+
+</div>
+
+
+<!--===== OVERVIEW SECTION =====-->
+<div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+">
+
+<h2 style="
+    color:#0073e6;
+    margin-bottom: 15px;
+">
+About the Department
+</h2>
+
+<p style="
+    text-align: center;
+    font-size: 16px;
+    color:#333;
+">
+The Department of Computer Science at XYZ University provides world-class education and research
+opportunities in Artificial Intelligence, Data Science, Software Engineering, and Cybersecurity.
+</p>
+
+
+<!--===== DEPARTMENT IMAGE =====-->
+
+<img
+    src="images/department-allahabad-.webp"
+    alt="Department Building"
+    style="
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 20px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s;
+    "
+    onmouseover="this.style.transform='scale(1.03)'"
+    onmouseout="this.style.transform='scale(1)'"
+>
+
+</div>
+
+
+<!--===== FACULTY SECTION =====-->
+<div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    background-color: #e3f2fd;
+    border-radius: 15px;
+    margin-bottom: 30px;
+">
+
+<h2 style="
+    color:#0073e6;
+    margin-bottom: 20px;
+">
+Our Faculty
+</h2>
+
+
+<div style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    width: 100%;
+">
+
+
+<!--===== FACULTY 1 =====-->
+
+<div style="
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1 1 220px;
+    max-width: 220px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+"
+onmouseover="this.style.transform='translateY(-10px)';
+this.style.boxShadow='0 12px 25px rgba(0,0,0,0.15)'"
+
+onmouseout="this.style.transform='translateY(0)';
+this.style.boxShadow='0 6px 20px rgba(0,0,0,0.1)'"
+>
+
+
+<img
+    src="images/anime-teacher-portrait-man-.webp"
+    alt="Dr.BILAL"
+    style="
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+"
+>
+
+<h3 style="
+    margin-bottom: 5px;
+    color:#0073e6;
+">
+Dr.BILAL
+</h3>
+
+<p style="color:#555;">
+Artificial Intelligence
+</p>
+
+</div>
+
+
+<!--===== FACULTY 2 =====-->
+
+<div style="
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1 1 220px;
+    max-width: 220px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+"
+onmouseover="this.style.transform='translateY(-10px)';
+this.style.boxShadow='0 12px 25px rgba(0,0,0,0.15)'"
+
+onmouseout="this.style.transform='translateY(0)';
+this.style.boxShadow='0 6px 20px rgba(0,0,0,0.1)'"
+>
+
+
+<img
+    src="images/anime-teacher-portrait-.webp"
+    alt="Dr.saima"
+    style="
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+"
+>
+
+<h3 style="
+    margin-bottom: 5px;
+    color:#0073e6;
+">
+Dr.saima
+</h3>
+
+<p style="color:#555;">
+Software Engineering
+</p>
+
+</div>
+
+
+<!--===== FACULTY 3 =====-->
+
+<div style="
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1 1 220px;
+    max-width: 220px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+"
+onmouseover="this.style.transform='translateY(-10px)';
+this.style.boxShadow='0 12px 25px rgba(0,0,0,0.15)'"
+
+onmouseout="this.style.transform='translateY(0)';
+this.style.boxShadow='0 6px 20px rgba(0,0,0,0.1)'"
+>
+
+
+<img
+    src="images/anime-teacher-portrait classroom-.webp"
+    alt="Dr.NOOREEN"
+    style="
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+"
+>
+
+<h3 style="
+    margin-bottom: 5px;
+    color:#0073e6;
+">
+Dr.NOOREEN
+</h3>
+
+<p style="color:#555;">
+Cybersecurity
+</p>
+
+</div>
+
+</div>
+</div>
+
+
+<!--===== COURSES SECTION =====-->
+
+<div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    border-radius: 15px;
+    margin-bottom: 30px;
+">
+
+<h2 style="
+    color:#d84315;
+    margin-bottom: 20px;
+">
+Courses Offered
+</h2>
+
+
+<div style="
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+">
+
+
+<div style="
+    background-color: #ff7043;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1 1 140px;
+    max-width: 180px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s;
+"
+onmouseover="this.style.transform='scale(1.05)'"
+onmouseout="this.style.transform='scale(1)'"
+>
+Intro to Programming
+</div>
+
+
+<div style="
+    background-color: #ff7043;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1 1 140px;
+    max-width: 180px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s;
+"
+onmouseover="this.style.transform='scale(1.05)'"
+onmouseout="this.style.transform='scale(1)'"
+>
+Data Structures
+</div>
+
+
+<div style="
+    background-color: #ff7043;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1 1 140px;
+    max-width: 180px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s;
+"
+onmouseover="this.style.transform='scale(1.05)'"
+onmouseout="this.style.transform='scale(1)'"
+>
+Database Systems
+</div>
+
+
+<div style="
+    background-color: #ff7043;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1 1 140px;
+    max-width: 180px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s;
+"
+onmouseover="this.style.transform='scale(1.05)'"
+onmouseout="this.style.transform='scale(1)'"
+>
+Artificial Intelligence
+</div>
+
+
+<div style="
+    background-color: #ff7043;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1 1 140px;
+    max-width: 180px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s;
+"
+onmouseover="this.style.transform='scale(1.05)'"
+onmouseout="this.style.transform='scale(1)'"
+>
+Software Engineering
+</div>
+
+</div>
+</div>
+
+
+<!--===== CONTACT FORM =====-->
+
+<div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+">
+
+<h2 style="
+    color:#0073e6;
+    margin-bottom: 20px;
+">
+Contact Faculty
+</h2>
+
+
+<form style="
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    gap: 10px;
+">
+
+
+<input
+type="text"
+placeholder="Your Name"
+style="
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+">
+
+
+<input
+type="email"
+placeholder="Your Email"
+style="
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+">
+
+
+<textarea
+rows="5"
+placeholder="Your Message"
+style="
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+">
+</textarea>
+
+
+<button
+type="submit"
+style="
+    padding: 12px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+"
+onmouseover="this.style.backgroundColor='#005bb5'"
+onmouseout="this.style.backgroundColor='#0073e6'"
+>
+Send Message
+</button>
+
+</form>
+</div>
+
+
+<!--===== EVENTS SECTION =====-->
+
+<div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    background: linear-gradient(135deg, #cfd9df, #e2ebf0);
+    border-radius: 15px;
+    margin-bottom: 30px;
+">
+
+<h2 style="
+    color:#0073e6;
+    margin-bottom: 20px;
+">
+Upcoming Events
+</h2>
+
+
+<ul style="
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+">
+
+
+<li style="
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.3s;
+"
+onmouseover="this.style.transform='translateX(5px)'"
+onmouseout="this.style.transform='translateX(0)'"
+>
+Jan 20, 2026 - AI Seminar
+</li>
+
+
+<li style="
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.3s;
+"
+onmouseover="this.style.transform='translateX(5px)'"
+onmouseout="this.style.transform='translateX(0)'"
+>
+Feb 15, 2026 - Hackathon
+</li>
+
+
+<li style="
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: transform 0.3s;
+"
+onmouseover="this.style.transform='translateX(5px)'"
+onmouseout="this.style.transform='translateX(0)'"
+>
+Mar 10, 2026 - Cybersecurity Workshop
+</li>
+
+</ul>
+</div>
+
+
+<!--===== SOCIAL LINKS =====-->
+
+<div style="
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+">
+
+
+<a
+href="https://facebook.com"
+target="_blank"
+style="
+    color:#3b5998;
+    font-weight:bold;
+    font-size:18px;
+">
+Facebook
+</a>
+
+
+<a
+href="https://twitter.com"
+target="_blank"
+style="
+    color:#00acee;
+    font-weight:bold;
+    font-size:18px;
+">
+Twitter
+</a>
+
+
+<a
+href="https://linkedin.com"
+target="_blank"
+style="
+    color:#0072b1;
+    font-weight:bold;
+    font-size:18px;
+">
+LinkedIn
+</a>
+
+
+<a
+href="https://instagram.com"
+target="_blank"
+style="
+    color:#e4405f;
+    font-weight:bold;
+    font-size:18px;
+">
+Instagram
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>
